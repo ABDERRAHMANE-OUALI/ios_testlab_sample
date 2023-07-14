@@ -1,0 +1,30 @@
+name: integration_test_example
+description: Demonstrates how to use the integration_test plugin.
+publish_to: 'none'
+
+# Make sure that this version represents migration semantic versioning value
+version: 1.1.2+1
+
+
+environment:
+  sdk: '>=3.0.0-0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: 1.0.5
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+# PUBSPEC CHECKSUM: 108e
